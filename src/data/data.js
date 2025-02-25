@@ -35,6 +35,7 @@ const data = {
     "socialLinks": {
       "github": "https://github.com/Himanshusarad",
       "linkedin": "https://www.linkedin.com/in/himanshusarad/",
+      "leetcode": "https://leetcode.com/u/himanshusarad/",
       "gmail": "himanshusarad@gmail.com",
       "sendMail": "mailto:himanshusarad@gmail.com"
     },
