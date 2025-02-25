@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { SiGmail } from "react-icons/si";
+import { SiGmail, SiLeetcode } from "react-icons/si";
 import data from "@/data/data"; 
 
 
@@ -70,6 +70,9 @@ export default function Hero() {
           </Link>
           <Link href={data.socialLinks.linkedin} target="_blank">
             <FaLinkedin className="text-gray-700 hover:text-blue-600 text-2xl transition-all" />
+          </Link>
+          <Link href={data.socialLinks.leetcode} target="_blank">
+            <SiLeetcode className="text-gray-700 hover:text-blue-600 text-2xl transition-all" />
           </Link>
           <div onClick={CopyEmailClick} target="_blank">
             <SiGmail className="text-gray-700 hover:text-blue-400 text-2xl transition-all" />
